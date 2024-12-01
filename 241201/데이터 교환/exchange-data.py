@@ -1,7 +1,8 @@
 a,b,c=5,6,7
-b=a
-c=b
+t=a
 a=c
+c=b
+b=t
 print(a)
 print(b)
 print(c)
